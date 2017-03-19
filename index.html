@@ -2,29 +2,34 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lista de Frutas</title>
   </head>
   <body>
-    <h1> Lista de Frutas </h1>
-    <p>Frutas Master es una empresa familiar  de tercera generación que se dedica a
-      la compra, venta y distribución  de frutas al por mayor. En la actualidad, somos
-      la empresa líder en el servicio de distribucion de frutas.</p>
-    <img src="assets/images/home-fruta.png">
-    <br>
-    <br>
-    <label> Catálogo: </label>
-    <ol id="frutaAgregada">
-      <li>Manzana</li>
-      <li>Pera</li>
-      <li>Piña</li>
-      <li>Cereza</li>
-      <li>Naranja</li>
-    </ol>
+    <section class="continer">
+      <h1> Lista de Frutas </h1>
+      <p>Frutas Master es una empresa familiar  de tercera generación que se dedica a
+        la compra, venta y distribución  de frutas al por mayor. En la actualidad, somos
+        la empresa líder en el servicio de distribucion de frutas.
+        <br>
+        <br>
+        <img src="assets/images/home-fruta.png">
+      </p>
 
-    <input type="text" name="fruta" id ="fruta" placeholder="fruta">
-    <input type="button" name="agregar" value="Agregar" id="agregarFruta" onclick="agregarFruta();">
-    <script type="text/javascript" src="assets/js/javascript.js">
+      <div class="catalogo">
+        <label> Catálogo: </label>
+          <ol id="frutaAgregada">
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Piña</li>
+            <li>Cereza</li>
+            <li>Naranja</li>
+          </ol>
+      </div>
 
-    </script>
+      <input type="text" name="fruta" id ="fruta" placeholder="fruta">
+      <input type="button" name="agregar" value="Agregar" id="agregarFruta" onclick="agregarFruta();">
+      <script type="text/javascript" src="assets/js/javascript.js"></script>
+    </section>
   </body>
 </html>

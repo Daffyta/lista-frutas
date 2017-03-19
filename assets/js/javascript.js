@@ -1,9 +1,3 @@
-// function agregarFruta() {
-//   // alert("Boton");
-//   // var fruta = "";
-//   // document.getElementById("agregarFruta").innerHTML = fruta;
-// }
-
 // function agregarFruta(){
 // 	var fruta = document.getElementById('fruta').value;
 // 	document.getElementById('frutaAgregada').innerHTML = fruta;
